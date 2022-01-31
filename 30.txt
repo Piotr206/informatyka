@@ -1,0 +1,19 @@
+#include <cstdlib>
+#include <iostream>
+#include <stdio.h>
+#include <conio.h>
+#include <math.h>
+using namespace std;
+
+int main(int argc, char *argv[])
+{
+    
+    for ( int i=194;i<=214; i++)
+{  
+  cout.precision(4);
+     cout<<"SQRT("<<i<<")="<<sqrt(i)<<"\n";
+    cout<<endl;
+}
+    system("PAUSE");  system("cls");
+    return EXIT_SUCCESS;
+}
