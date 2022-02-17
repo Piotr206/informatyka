@@ -1,0 +1,23 @@
+#include <cstdlib>
+#include <iostream>
+
+using namespace std;
+
+int main(int argc, char argv[])
+{
+system("chcp 1250");
+int dol_mar;
+cout<<"podaj dolną granicę obliczania iloczynu=";
+cin>>dol_mar;
+int gora_mar;
+cout<<"podaj górną granicę obliczania iloczynu=";
+cin>>gora_mar;
+int iloczyn_mar=1;
+for (int i=1;i<=gora_mar;i++)
+for (int i=1;i<=dol_mar;i++)
+{
+iloczyn_mar=iloczyn_mar*i;
+}
+cout<<"iloczyn="<<iloczyn_mar<<endl;
+system("PAUSE");
+}
